@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Main">
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1573;1587;1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Label="Package">
+    <Version>1.0.0</Version>
+    <Authors>DCoats</Authors>
+    <Company>Rivet</Company>
+    <Copyright>Copyright © Rivet 2024</Copyright>
+    <Description>Database-based projects repository implementation.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.L0089\source\R5T.L0089\R5T.L0089.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0248\source\R5T.T0248\R5T.T0248.csproj" />
+    <ProjectReference Include="..\R5T.D0120\R5T.D0120.csproj" />
+    <ProjectReference Include="..\..\..\R5T.H0001\source\R5T.H0001\R5T.H0001.csproj" />
+    <ProjectReference Include="..\..\..\R5T.NG0025\source\R5T.NG0025\R5T.NG0025.csproj" />
+  </ItemGroup>
+</Project>
